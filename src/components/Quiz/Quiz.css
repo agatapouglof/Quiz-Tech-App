@@ -49,6 +49,11 @@
     margin-top: 35px;
 }
 
+.validation-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .next-btn,.reset-btn {
     background: #c40094;
     border: none;
@@ -58,6 +63,8 @@
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .next-btn:hover,.reset-btn:hover {
@@ -67,6 +74,11 @@
 .correct {
     background: #1acc85;
     border-color: #00d397;
+}
+
+.selected {
+    background: #257dc5;
+    border-color: #257abe;
 }
 
 .correct:hover {

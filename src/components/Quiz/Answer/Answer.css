@@ -1,0 +1,19 @@
+.selected {
+    background: #257dc5;
+    border-color: #257abe;
+}
+
+.selected:hover {
+    /* background: #257dc5; */
+    /* border-color: #257abe; */
+    border: 3px solid #257abe;
+}
+
+.options {
+    width: 100%;
+    border: 1px solid #c40094;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1em;
+}
